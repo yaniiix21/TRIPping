@@ -1,0 +1,27 @@
+
+#nav{
+    height: 10vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-inline: auto;
+}
+#nav_elements{
+    display: flex;
+}
+#logo{
+    height: 10vh;
+}
+.button{
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
